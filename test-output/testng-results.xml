@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-18T19:53:10 EET" name="Suite" finished-at="2024-01-18T19:53:39 EET" duration-ms="29173">
+    <groups>
+    </groups>
+    <test started-at="2024-01-18T19:53:10 EET" name="Test" finished-at="2024-01-18T19:53:39 EET" duration-ms="29173">
+      <class name="ProductsTestCases">
+        <test-method signature="CheckButtonsNotClicked()[pri:0, instance:ProductsTestCases@6e1d8f9e]" started-at="2024-01-18T19:53:39 EET" name="CheckButtonsNotClicked" finished-at="2024-01-18T19:53:39 EET" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckButtonsNotClicked -->
+      </class> <!-- ProductsTestCases -->
+      <class name="loginTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:loginTestCases@6379eb]" started-at="2024-01-18T19:53:09 EET" name="setUp" finished-at="2024-01-18T19:53:10 EET" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestHappy()[pri:0, instance:loginTestCases@6379eb]" started-at="2024-01-18T19:53:10 EET" name="loginTestHappy" description="this is Happy Scenario" finished-at="2024-01-18T19:53:39 EET" duration-ms="29139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestHappy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:loginTestCases@6379eb]" started-at="2024-01-18T19:53:40 EET" name="tearDown" finished-at="2024-01-18T19:53:40 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
